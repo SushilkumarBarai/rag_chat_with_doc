@@ -14,20 +14,22 @@ rag_chat_with_doc/
 ├── news_articles/            # Folder containing .txt files used as knowledge base
 ├── main.py                   # Main script for RAG pipeline
 └── README.md                 # Project documentation
+```
 
 
 ## ⚙️ Features
 
-- ✅ Load `.txt` documents from a directory  
-- ✅ Split documents into manageable chunks  
-- ✅ Generate embeddings using `text-embedding-3-small` model from OpenAI  
-- ✅ Store embeddings in a **persistent** ChromaDB collection  
-- ✅ Retrieve top-n relevant chunks using semantic search  
-- ✅ Generate concise and contextual answers using **GPT-3.5-Turbo**
+  - ✅ Load `.txt` documents from a directory  
+  - ✅ Split documents into manageable chunks  
+  - ✅ Generate embeddings using `text-embedding-3-small` model from OpenAI  
+  - ✅ Store embeddings in a **persistent** ChromaDB collection  
+  - ✅ Retrieve top-n relevant chunks using semantic search  
+  - ✅ Generate concise and contextual answers using **GPT-3.5-Turbo**
 
----
+
 
 ## 🔧 Installation
+
 
 ### 1. Clone the repository
 
