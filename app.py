@@ -143,7 +143,7 @@ def generate_response(question, relevant_chunks):
 # Example query
 # query_documents("tell me about AI replacing TV writers strike.")
 # Example query and response generation
-question = "tell me about databricks"
+question = "tell me about venture capital"
 relevant_chunks = query_documents(question)
 answer = generate_response(question, relevant_chunks)
 
